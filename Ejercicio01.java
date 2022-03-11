@@ -1,12 +1,9 @@
 import java.util.*;
 class Ejercicio01{
     public static void main(String[] args){
-        // VARIABLES
         List<Integer> list = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
-        int counter = 0;
-        int number = 0;
-        int select;
+        int select, counter = 0,number = 0;
         double sum = 0;
         List<Integer> pairs = new ArrayList<>();
         List<Integer> odds = new ArrayList<>();
